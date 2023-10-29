@@ -9,7 +9,7 @@ public class Student_registration_page {
 	 String password;
 	 String city;
 	 String email;
-	 String mobilenumber;
+	 String mobileNumber;
 	
 	
 	
