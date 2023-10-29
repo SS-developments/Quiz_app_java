@@ -34,18 +34,8 @@ public class Log_page {
 			break;
 			
 		
-		
-		
-		
-		
 		}
 	
-		
-		
-		
-		
-		
-		
 		
 	}
 
