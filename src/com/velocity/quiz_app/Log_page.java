@@ -16,7 +16,7 @@ public class Log_page {
 		
 		do {		    // adding do-while for getting correct input from user 
 		
-		System.out.println(" plase select \n 1.login \n 2.signup");
+		System.out.println(" plase select \n 1.login \n 2.Registration");
 		
 		 log_input = scan.nextInt();
 		
@@ -34,7 +34,7 @@ public class Log_page {
 			break;
 		case 2:{
 			
-			System.out.println(" signup");
+			System.out.println(" Student Registration ");
 		}
 			break;
 			
