@@ -1,0 +1,13 @@
+
+query for table creation 
+
+CREATE TABLE `quiz_app_db`.`student_registration` (
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `s_name` VARCHAR(45) NULL,
+  `s_lastName` VARCHAR(45) NULL,
+  `s_userNmae` VARCHAR(45) NULL,
+  `s_password` VARCHAR(45) NULL,
+  `s_city` VARCHAR(45) NULL,
+  `s_email` VARCHAR(45) NULL,
+  `s_mobileNo` VARCHAR(45) NULL,
+  PRIMARY KEY (`id`));
