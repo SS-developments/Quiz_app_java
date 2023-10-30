@@ -1,12 +1,17 @@
 package com.velocity.quiz_app;
+import java.sql.SQLException;
 import java.util.*;
 
-public class Log_page {
+public class Home_page {
 	
-	public static void main (String args[]) {
+	public static void main (String args[]) throws ClassNotFoundException, SQLException {
 		
 		// different  objects for different class to access methods 
-		Login_page Login_page_obj = new Login_page();
+		Login_page Login_page_obj = new Login_page(); // login class object 
+		
+		Student_registration_page reg_obj = new Student_registration_page();
+		
+		
 		
 		Scanner scan = new Scanner(System.in);
 		
@@ -34,7 +39,12 @@ public class Log_page {
 			break;
 		case 2:{
 			
-			System.out.println(" Student Registration ");
+			System.out.println(" Welcome student ");
+			reg_obj.std_reg();
+			
+			System.out.println(" \n\n\tNow restart and login ");
+			
+			
 		}
 			break;
 			

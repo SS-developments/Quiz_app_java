@@ -1,5 +1,5 @@
 
-query for table creation 
+student registration  table 
 
 CREATE TABLE `quiz_app_db`.`student_registration` (
   `id` INT NOT NULL AUTO_INCREMENT,
@@ -11,3 +11,6 @@ CREATE TABLE `quiz_app_db`.`student_registration` (
   `s_email` VARCHAR(45) NULL,
   `s_mobileNo` VARCHAR(45) NULL,
   PRIMARY KEY (`id`));
+  
+  *********************************************************
+  
