@@ -26,7 +26,8 @@ public class Login_page {
 		case 1: {
 			
 			System.out.println("\n\twelcome back student\n \n plase enter user name:");
-//			String u_name= login_sc.next();
+			String u_name= login_sc.next();
+			
 			
 			System.out.println("login success");
 		}
