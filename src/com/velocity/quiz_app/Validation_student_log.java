@@ -56,7 +56,7 @@ public class Validation_student_log {
 				
 			}
 			else {
-				System.out.println("plz register first ");
+				System.out.println("plaze  register first ");
 			}
 		}
 		
