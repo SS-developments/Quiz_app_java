@@ -14,3 +14,17 @@ CREATE TABLE `quiz_app_db`.`student_registration` (
   
   *********************************************************
   
+  question table 
+  
+  CREATE TABLE `quiz_app_db`.`question_data` (
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `question` VARCHAR(45) NULL,
+  `option_1` VARCHAR(45) NULL,
+  `option_2` VARCHAR(45) NULL,
+  `option_3` VARCHAR(45) NULL,
+  `option_4` VARCHAR(45) NULL,
+  `correct_ans` VARCHAR(45) NULL,
+  PRIMARY KEY (`id`));
+  
+  **********************************************************
+  
