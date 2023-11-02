@@ -9,16 +9,16 @@ import java.util.Scanner;
 
 public class Validation_student_log {
 	
-	public static void main(String[] args) throws ClassNotFoundException, SQLException {
-		Scanner sc = new Scanner (System.in);
-		
-		System.out.println("enter username");
-		String user_name=sc.next();
-		username_validation(user_name);
-		
-	}
+//	public static void main(String[] args) throws ClassNotFoundException, SQLException {
+//		Scanner sc = new Scanner (System.in);
+//		
+//		System.out.println("enter username");
+//		String user_name=sc.next();
+//		username_validation(user_name);
+//		
+//	}
 	
-	public static void username_validation(String user_name) throws ClassNotFoundException, SQLException {
+	public  void username_validation(String user_name) throws ClassNotFoundException, SQLException {
 		Scanner sc = new Scanner (System.in);
 		
 		
@@ -66,5 +66,7 @@ public class Validation_student_log {
 		
 		
 	}
+
+	
 
 }

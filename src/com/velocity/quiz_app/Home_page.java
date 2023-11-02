@@ -25,7 +25,7 @@ public class Home_page {
 		
 		 log_input = scan.nextInt();
 		
-	}while(log_input==3);
+	}while(log_input>=3);
 		
 		
 		
