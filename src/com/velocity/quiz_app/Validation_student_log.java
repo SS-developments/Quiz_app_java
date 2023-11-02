@@ -9,6 +9,8 @@ import java.util.Scanner;
 
 public class Validation_student_log {
 	
+	Student_operations student_opt = new Student_operations();
+	
 //	public static void main(String[] args) throws ClassNotFoundException, SQLException {
 //		Scanner sc = new Scanner (System.in);
 //		
@@ -47,6 +49,9 @@ public class Validation_student_log {
 				if(s_pass.equals(pass)) {
 					
 					System.out.println("\n\tlogin success!!");
+					
+					// calling student method 
+					student_opt.Student_opt();
 				}
 				
 				else {
