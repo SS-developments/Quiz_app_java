@@ -5,6 +5,7 @@ import java.util.Scanner;
 
 public class Login_page {
 	Validation_student_log valid_std_obj = new Validation_student_log();
+	Admin_page admin_page_obj = new Admin_page();
 //	
 //	public static void main(String[] args) {
 //		
@@ -47,6 +48,8 @@ public class Login_page {
 			System.out.println(" plase enter password:");
 			if (A_pass.equals(login_sc.next())) {
 				System.out.println(" admin login successful!");
+				admin_page_obj.admin_opt();
+				
 			}
 			else {
 				System.out.println(" wrong password ");
