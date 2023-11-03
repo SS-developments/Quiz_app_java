@@ -7,9 +7,9 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.Scanner;
 
-public class Validation_student_log {
+public class Validation_student {
 	
-	Student_operations student_opt = new Student_operations();
+	Student_page student_opt = new Student_page();
 	
 //	public static void main(String[] args) throws ClassNotFoundException, SQLException {
 //		Scanner sc = new Scanner (System.in);
@@ -21,7 +21,7 @@ public class Validation_student_log {
 //	}
 	
 	public  void username_validation(String user_name) throws ClassNotFoundException, SQLException {
-		Scanner sc = new Scanner (System.in);
+		Scanner scan = new Scanner (System.in);
 		
 		
 //		 load driver 
@@ -45,13 +45,13 @@ public class Validation_student_log {
 			String pass=rs.getString(5);
 			if (usernmae.equals(user_name)) {
 				System.out.println("Enter Password");
-				String s_pass =sc.next();
+				String s_pass =scan.next();
 				if(s_pass.equals(pass)) {
 					
 					System.out.println("\n\tlogin success!!");
 					
 					// calling student method 
-					student_opt.Student_opt();
+					student_opt.Student_opt_page(user_name);
 				}
 				
 				else {
@@ -68,6 +68,23 @@ public class Validation_student_log {
 //		System.out.println(" now ask password");
 		con.close();
 		p_stmt.close();
+		
+		
+	}
+	
+	public void student_test_status() throws ClassNotFoundException, SQLException {  // method for checking student test status
+		
+		
+		Class.forName("com.mysql.jdbc.Driver");
+		
+		Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/quiz_app_db", "root", "Admin@1721");
+		
+		String querry = "select * from quiz_app_db.test_result";
+		
+		PreparedStatement stmt = con.prepareStatement(querry);
+		
+		ResultSet rs = stmt.executeQuery();
+		
 		
 		
 	}

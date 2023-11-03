@@ -21,13 +21,13 @@ public class Admin_operations {
 		System.out.println(" Enter question :");
 		String question=scan.nextLine();
 		System.out.println("Enter option 1");
-		String option_1 = "1"+scan.nextLine();
+		String option_1 = "1. "+scan.nextLine();
 		System.out.println("Enter option 2");
-		String option_2 = "2"+scan.nextLine();
+		String option_2 = "2. "+scan.nextLine();
 		System.out.println("Enter option 3");
-		String option_3 = "3"+scan.nextLine();
+		String option_3 = "3. "+scan.nextLine();
 		System.out.println("Enter option 4");
-		String option_4 = "4"+scan.nextLine();
+		String option_4 = "4. "+scan.nextLine();
 		System.out.println("Enter Correct Answer");
 		String correct_ans=scan.nextLine();
 		

@@ -4,7 +4,7 @@ import java.sql.SQLException;
 import java.util.Scanner;
 
 public class Login_page {
-	Validation_student_log valid_std_obj = new Validation_student_log();
+	Validation_student valid_std_obj = new Validation_student();
 	Admin_page admin_page_obj = new Admin_page();
 //	
 //	public static void main(String[] args) {

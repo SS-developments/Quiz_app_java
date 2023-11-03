@@ -27,4 +27,14 @@ CREATE TABLE `quiz_app_db`.`student_registration` (
   PRIMARY KEY (`id`));
   
   **********************************************************
+  test result 
+  
+  CREATE TABLE `quiz_app_db`.`test_result` (
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `username` VARCHAR(45) NULL,
+  `marks` VARCHAR(45) NULL,
+  PRIMARY KEY (`id`),
+  UNIQUE INDEX `username_UNIQUE` (`username` ASC));
+  
+  *****************************************************
   
