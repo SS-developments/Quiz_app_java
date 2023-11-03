@@ -10,7 +10,7 @@ import java.sql.SQLException;
 import java.util.Scanner;
 
 public class DisplayQuestion {
-public static void main(String[] args) throws ClassNotFoundException, SQLException {
+public void Display_Question() throws ClassNotFoundException, SQLException {
 	
 	int score =0;
 	  
